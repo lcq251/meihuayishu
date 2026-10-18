@@ -1,0 +1,16 @@
+{
+  "version": "classic-v1",
+  "source": "book/meihua_yishu.txt:9,17",
+  "trigrams": [
+    {"name":"乾","number":1,"element":"金","binary":"111"},
+    {"name":"兌","number":2,"element":"金","binary":"110"},
+    {"name":"離","number":3,"element":"火","binary":"101"},
+    {"name":"震","number":4,"element":"木","binary":"100"},
+    {"name":"巽","number":5,"element":"木","binary":"011"},
+    {"name":"坎","number":6,"element":"水","binary":"010"},
+    {"name":"艮","number":7,"element":"土","binary":"001"},
+    {"name":"坤","number":8,"element":"土","binary":"000"}
+  ],
+  "generation": {"金":"水","水":"木","木":"火","火":"土","土":"金"},
+  "overcoming": {"金":"木","木":"土","土":"水","水":"火","火":"金"}
+}

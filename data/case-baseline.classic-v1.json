@@ -1,0 +1,30 @@
+{
+  "version": "classic-v1",
+  "source": "book/meihua_yishu.txt:154-162",
+  "cases": [
+    {
+      "id": "guan-mei",
+      "name": "觀梅占",
+      "method": "年月日時占",
+      "inputs": {"yearNumber":5,"month":12,"day":17,"hourNumber":9},
+      "intermediate": {"dateTotal":34,"upperRemainder":2,"total":43,"lowerRemainder":3,"movingLine":1},
+      "expected": {"upper":"兌","lower":"離","original":"澤火革","changed":"澤山咸","mutual":"乾巽"}
+    },
+    {
+      "id": "mudan",
+      "name": "牡丹占",
+      "method": "年月日時占",
+      "inputs": {"yearNumber":6,"month":3,"day":16,"hourNumber":4},
+      "intermediate": {"dateTotal":25,"upperRemainder":1,"total":29,"lowerRemainder":5,"movingLine":5},
+      "expected": {"upper":"乾","lower":"巽","original":"天風姤","changed":"火風鼎","mutual":"重乾"}
+    },
+    {
+      "id": "door-knock",
+      "name": "鄰夜扣門借物占",
+      "method": "聲音占",
+      "inputs": {"upperNumber":1,"lowerNumber":5,"hourNumber":10},
+      "intermediate": {"total":16,"movingLine":4},
+      "expected": {"original":"天風姤","changed":"巽","mutual":"重乾"}
+    }
+  ]
+}
