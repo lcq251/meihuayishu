@@ -1,0 +1,14 @@
+{
+  "version": "classic-v1",
+  "defaultIntent": "general",
+  "calendar": {"timezone":"Asia/Shanghai","seasonMode":"solar-term","timeMode":"standard","ziHourRule":"zi-zheng"},
+  "plugins": {
+    "methods": ["datetime", "number", "sound", "character", "object"],
+    "intents": ["general", "relationship", "wealth", "house", "travel", "weather"],
+    "symbols": true,
+    "externalSigns": false,
+    "responsePeriods": false
+  },
+  "conflictResolution": "show-both",
+  "sourcePolicy": "every-finding-must-have-source"
+}
