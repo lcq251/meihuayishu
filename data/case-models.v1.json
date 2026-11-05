@@ -1,0 +1,573 @@
+{
+  "version": "case-model-v1",
+  "sourceSha256": "88aa99ae6d75d570ef0db6a9a32d4fd2a0f688cd13549d9d11e6304f99da8bba",
+  "models": [
+    {
+      "id": "case-154",
+      "title": "觀梅占",
+      "method": "datetime",
+      "source": {
+        "file": "books/meihua_yishu.txt",
+        "startLine": 154,
+        "endLine": 158
+      },
+      "original": "=== 觀梅占 ===\n辰年十二月十七日申時，康節先生偶觀梅，見二雀爭枝墜地。先生曰：「不動不占，不因事不占。今二雀爭枝墜地，怪也。」因占之，辰年五數，十二月十二數，十七日十七數，共三十四數，除四八三十二，餘二，屬兌，為上卦，加申時九數，總得四十三數，五八除四十，餘得三數，為離，作下卦。又上下總四十三數，以六除，六七四十二，餘一為動爻，是為澤火革。初爻變咸，互見乾巽。\n\n斷之曰：「詳此卦，明晚當有女子折花，園丁不知而逐之，女子失驚墜地，逐傷其股。右兌金為體，離火克之。互中巽木，複三起離火，則克體之卦氣盛。兌為少女，因知女子之被傷，而互中巽木，又逢乾金兌金克之，則巽木被傷，而巽為股，故有傷股之應。幸變為艮土，兌金得生，知女子但被傷，而不至凶危也。」（年月日時占例）",
+      "inputs": {
+        "upperNumber": 34,
+        "lowerNumber": 43,
+        "movingTotal": 43,
+        "provenance": "原书明确数值，非由结果倒推"
+      },
+      "calculated": {
+        "upper": "兌",
+        "lower": "離",
+        "movingLine": 1,
+        "linesBottomUp": [
+          1,
+          0,
+          1,
+          1,
+          1,
+          0
+        ],
+        "changedUpper": "兌",
+        "changedLower": "艮",
+        "mutualUpper": "乾",
+        "mutualLower": "巽",
+        "body": "兌",
+        "use": "離"
+      },
+      "reasoning": [
+        {
+          "stage": "calculation",
+          "kind": "deterministic",
+          "formula": "上卦 mod8(34)；下卦 mod8(43)；动爻 mod6(43)"
+        },
+        {
+          "stage": "interpretation",
+          "kind": "source-conditioned",
+          "statement": "兌金为体、離火克体；巽为股且受金克；变艮土生体。女子、伤股与明晚是原书取象及语境判断，不由算术唯一推出。"
+        }
+      ],
+      "reportedOutcome": "未在本节独立记载后验",
+      "outcomeUse": "仅作书中叙事记录，不参与规则执行或作为现实准确率证据"
+    },
+    {
+      "id": "case-159",
+      "title": "牡丹占",
+      "method": "datetime",
+      "source": {
+        "file": "books/meihua_yishu.txt",
+        "startLine": 159,
+        "endLine": 163
+      },
+      "original": "=== 牡丹占 ===\n巳年三月十六日卯時，先生與客往司馬公家共觀牡丹。時值花開甚盛，客曰：「花盛如此，亦有數乎？」先生曰：「莫不有數。且因問而可占矣。」逐占之。以巳年六數，三月三數，十六日十六數，總得二十五數，除三八二十四數，餘一數為乾，為上卦。卯時四數，共得二十九數，又除三八二十四數，餘五為巽卦，作下卦，得天風姤。又以總計二十九數，以六除之，四六除二十四，得五爻動，變鼎卦，互見重乾。逐與客曰：「怪哉，此花明日午時，當為馬所踐毀。」眾客愕然不信，次日午時，果有貴官觀牡丹，二馬相齧，群至花間馳驟，花盡為之踐毀。\n\n斷之曰：「巽木為體，乾金克之，互卦又見重乾，克體之卦多矣，卦中無生意，固知牡丹必為踐毀。所謂馬者，乾為馬也。午時者，離明之象，是以知之也。」",
+      "inputs": {
+        "upperNumber": 25,
+        "lowerNumber": 29,
+        "movingTotal": 29,
+        "provenance": "原书明确数值，非由结果倒推"
+      },
+      "calculated": {
+        "upper": "乾",
+        "lower": "巽",
+        "movingLine": 5,
+        "linesBottomUp": [
+          0,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "changedUpper": "離",
+        "changedLower": "巽",
+        "mutualUpper": "乾",
+        "mutualLower": "乾",
+        "body": "巽",
+        "use": "乾"
+      },
+      "reasoning": [
+        {
+          "stage": "calculation",
+          "kind": "deterministic",
+          "formula": "上卦 mod8(25)；下卦 mod8(29)；动爻 mod6(29)"
+        },
+        {
+          "stage": "interpretation",
+          "kind": "source-conditioned",
+          "statement": "巽木为体，乾金及重乾互卦克体；乾取马象，午时取离明象。"
+        }
+      ],
+      "reportedOutcome": "本节记载次日午时马践花",
+      "outcomeUse": "仅作书中叙事记录，不参与规则执行或作为现实准确率证据"
+    },
+    {
+      "id": "case-164",
+      "title": "鄰夜扣門借物占",
+      "method": "sound",
+      "source": {
+        "file": "books/meihua_yishu.txt",
+        "startLine": 164,
+        "endLine": 168
+      },
+      "original": "=== 鄰夜扣門借物占 ===\n冬夕酉時，先生方擁爐，有扣門者，初扣一聲而止，繼而又扣五聲，且雲借物。先生令勿言，令其子占之所借何物。以一聲屬乾為上卦，以五聲屬巽為下卦，又以一乾五巽共六數，加酉時數共得十六數，以六除之，二六一十二，得天風姤。第四爻變巽卦，互見重乾。卦中三乾金，二巽木，為金木之物也，又以乾金短，而巽木長，是借斧也。\n\n子乃斷曰：「金短木長者，器也，所借鋤也。」先生曰：「非也。必斧也。」聞之，果借斧，其子問何故？先生曰：「起數又須明理。以卦推之，斧亦可也，鋤亦可也；以理推之，夕晚安用鋤？必借斧。蓋斧切於劈柴之用耳。推數又須明理，為卜占之切要也。推數不推理，是不得也。學數者志之！」（系聞聲占例）",
+      "inputs": {
+        "upperNumber": 1,
+        "lowerNumber": 5,
+        "movingTotal": 16,
+        "provenance": "原书明确数值，非由结果倒推"
+      },
+      "calculated": {
+        "upper": "乾",
+        "lower": "巽",
+        "movingLine": 4,
+        "linesBottomUp": [
+          0,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "changedUpper": "巽",
+        "changedLower": "巽",
+        "mutualUpper": "乾",
+        "mutualLower": "乾",
+        "body": "巽",
+        "use": "乾"
+      },
+      "reasoning": [
+        {
+          "stage": "calculation",
+          "kind": "deterministic",
+          "formula": "上卦 mod8(1)；下卦 mod8(5)；动爻 mod6(16)"
+        },
+        {
+          "stage": "interpretation",
+          "kind": "source-conditioned",
+          "statement": "金短木长对应金木器具；斧与锄均为候选，再以夜间劈柴用途取斧。"
+        }
+      ],
+      "reportedOutcome": "本节记载借斧",
+      "outcomeUse": "仅作书中叙事记录，不参与规则执行或作为现实准确率证据"
+    },
+    {
+      "id": "case-169",
+      "title": "今日動靜如何",
+      "method": "tone",
+      "source": {
+        "file": "books/meihua_yishu.txt",
+        "startLine": 169,
+        "endLine": 173
+      },
+      "original": "=== 今日動靜如何 ===\n有客問曰：「今日動靜如何？」逐將此六字占之。以乎分「今日動」三字為上卦。「今」平聲，一數；「日」入聲，四數；「動」去聲，三數，共八數，得坤為上卦。以「靜如何」為下卦，「靜」去聲，三數；「如」平聲，一數；「何」平聲，一數，共五數，得巽，為下卦。又以八五總為十三數，除二六一十二，餘得一數，為地風升。初爻動，變泰卦，互見震、兌。逐為客曰：「今日有人相請，客不多，酒不醉，味至黍雞而已。」至晚果然。\n\n斷曰：「升者，有升階之義，互震、兌，有東西席之分。卦中兌為口，坤為腹，為口腹之事，故知有人相請。客不多者，坤土獨立，無同類之卦氣也。酒不醉，卦中無坎。味止黍雞者，坤為黍稷耳。蓋卦無相生之義，故知酒不多，食品不豐也。」（系聲音占例）",
+      "inputs": {
+        "upperNumber": 8,
+        "lowerNumber": 5,
+        "movingTotal": 13,
+        "provenance": "原书明确数值，非由结果倒推"
+      },
+      "calculated": {
+        "upper": "坤",
+        "lower": "巽",
+        "movingLine": 1,
+        "linesBottomUp": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "changedUpper": "坤",
+        "changedLower": "乾",
+        "mutualUpper": "震",
+        "mutualLower": "兌",
+        "body": "坤",
+        "use": "巽"
+      },
+      "reasoning": [
+        {
+          "stage": "calculation",
+          "kind": "deterministic",
+          "formula": "上卦 mod8(8)；下卦 mod8(5)；动爻 mod6(13)"
+        },
+        {
+          "stage": "interpretation",
+          "kind": "source-conditioned",
+          "statement": "坤腹、兑口取饮食象；缺坎取酒不多；坤独立取客少。平仄取值采用原书，不用现代普通话自动替代。"
+        }
+      ],
+      "reportedOutcome": "本节笼统记载至晚果然",
+      "outcomeUse": "仅作书中叙事记录，不参与规则执行或作为现实准确率证据"
+    },
+    {
+      "id": "case-174",
+      "title": "西林寺牌額占",
+      "method": "strokes",
+      "source": {
+        "file": "books/meihua_yishu.txt",
+        "startLine": 174,
+        "endLine": 182
+      },
+      "original": "=== 西林寺牌額占 ===\n先生偶見西林寺之額，「林」字無兩勾，因占之，以西字七畫為艮，作上卦；以林八畫為坤，作下卦。以上七畫下八畫總十五畫，除二六一十二，餘數得三，是山地剝卦。第三爻動，變艮，互見重坤。\n\n斷曰：寺者，純陽之所居，今卦得重陰之爻，而又有群陰剝陽之兆。詳此，則寺中當有陰人之禍。詢之果然，逐謂寺僧曰：「何不添‘林’字兩勾，則自然無陰人之禍矣。」僧信然，即添‘林’字兩勾，寺果無事。\n\n又，純陽之人，所居得純陰之卦，故不吉。又有群陰剝陽之義，故有陰人之禍。若添「林」字兩勾，則十畫，除八得二為兌卦，合上艮，是為山澤損。第五爻變，動為中孚卦，互卦見坤、震，損者益之，用互俱生體，為吉卦。可以得安矣。\n\n以上並是先得數，以數起卦，所謂先天之數也。（系字畫占例）",
+      "inputs": {
+        "upperNumber": 7,
+        "lowerNumber": 8,
+        "movingTotal": 15,
+        "provenance": "原书明确数值，非由结果倒推"
+      },
+      "calculated": {
+        "upper": "艮",
+        "lower": "坤",
+        "movingLine": 3,
+        "linesBottomUp": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "changedUpper": "艮",
+        "changedLower": "艮",
+        "mutualUpper": "坤",
+        "mutualLower": "坤",
+        "body": "艮",
+        "use": "坤"
+      },
+      "reasoning": [
+        {
+          "stage": "calculation",
+          "kind": "deterministic",
+          "formula": "上卦 mod8(7)；下卦 mod8(8)；动爻 mod6(15)"
+        },
+        {
+          "stage": "interpretation",
+          "kind": "source-conditioned",
+          "statement": "按题额实际笔画取数；一般体用比和却取群阴剥阳之象，属于明确的情境例外；改字是反事实分支。"
+        }
+      ],
+      "reportedOutcome": "本节叙述询问证实与改字后无事",
+      "outcomeUse": "仅作书中叙事记录，不参与规则执行或作为现实准确率证据",
+      "branches": [
+        {
+          "label": "林字加两勾",
+          "inputs": {
+            "upperNumber": 7,
+            "lowerNumber": 10,
+            "movingTotal": 17
+          },
+          "calculated": {
+            "upper": "艮",
+            "lower": "兌",
+            "movingLine": 5,
+            "linesBottomUp": [
+              1,
+              1,
+              0,
+              0,
+              0,
+              1
+            ],
+            "changedUpper": "巽",
+            "changedLower": "兌",
+            "mutualUpper": "坤",
+            "mutualLower": "震",
+            "body": "兌",
+            "use": "艮"
+          }
+        }
+      ]
+    },
+    {
+      "id": "case-183",
+      "title": "老人有憂色占",
+      "method": "object-direction",
+      "source": {
+        "file": "books/meihua_yishu.txt",
+        "startLine": 183,
+        "endLine": 187
+      },
+      "original": "=== 老人有憂色占 ===\n己丑日卯時，偶在途行，有老人往巽方，有憂色。問其何以有憂，曰無。怪而占之，以老人屬乾為上卦，巽方為下卦，是天風姤；又以乾一巽五之數，加卯時四數，總十數，除六得四為動爻，是為天風姤之九四。《易》曰：「包無魚，起凶。」是易辭不吉矣。以卦論之，巽木為體，乾金克之，互卦又見重乾，俱是克體，並無生氣，且時在途行，其應速。逐以成卦之數中分而取其半，謂老人蟲：「汝於五日內謹慎出入，恐有重禍。」果五日，此老赴吉席，因魚骨鯁而終。\n\n又凡占卜，克應之期看自己之動靜，以決事之遲速，故行則應速，以逐成卦之數，中分而取其半也。坐則事應遲，當倍其成卦之數而定之也。立則半遲半速，止以成卦之數定之可也。雖然如是，又在變通，如占牡丹及觀梅之類，則二日花皆朝夕之故，豈特成數之久也。（端法占例）",
+      "inputs": {
+        "upperNumber": 1,
+        "lowerNumber": 5,
+        "movingTotal": 10,
+        "provenance": "原书明确数值，非由结果倒推"
+      },
+      "calculated": {
+        "upper": "乾",
+        "lower": "巽",
+        "movingLine": 4,
+        "linesBottomUp": [
+          0,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "changedUpper": "巽",
+        "changedLower": "巽",
+        "mutualUpper": "乾",
+        "mutualLower": "乾",
+        "body": "巽",
+        "use": "乾"
+      },
+      "reasoning": [
+        {
+          "stage": "calculation",
+          "kind": "deterministic",
+          "formula": "上卦 mod8(1)；下卦 mod8(5)；动爻 mod6(10)"
+        },
+        {
+          "stage": "interpretation",
+          "kind": "source-conditioned",
+          "statement": "老人取乾、巽方取巽；巽木体受乾金克，互重乾；行走取总数一半为五日。"
+        }
+      ],
+      "reportedOutcome": "本节记载五日后事件",
+      "outcomeUse": "仅作书中叙事记录，不参与规则执行或作为现实准确率证据"
+    },
+    {
+      "id": "case-188",
+      "title": "少年有喜色占",
+      "method": "object-direction",
+      "source": {
+        "file": "books/meihua_yishu.txt",
+        "startLine": 188,
+        "endLine": 190
+      },
+      "original": "=== 少年有喜色占 ===\n壬申日午時，有少年從離方來，喜形於色，問有何喜，曰無。逐占之，以少年屬艮為上卦，離為下卦，得山火賁。以艮七離三加午時七，總十七數，除十二，餘五為動爻，賁之六五爻曰：「賁於丘園，束帛戔戔，吝，終吉。」易辭已吉矣。卦則賁之家人，互見震、坎，離為體，互變俱生之。斷曰：子於十七日內必有聘幣之喜。至期，果然定親。",
+      "inputs": {
+        "upperNumber": 7,
+        "lowerNumber": 3,
+        "movingTotal": 17,
+        "provenance": "原书明确数值，非由结果倒推"
+      },
+      "calculated": {
+        "upper": "艮",
+        "lower": "離",
+        "movingLine": 5,
+        "linesBottomUp": [
+          1,
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        "changedUpper": "巽",
+        "changedLower": "離",
+        "mutualUpper": "震",
+        "mutualLower": "坎",
+        "body": "離",
+        "use": "艮"
+      },
+      "reasoning": [
+        {
+          "stage": "calculation",
+          "kind": "deterministic",
+          "formula": "上卦 mod8(7)；下卦 mod8(3)；动爻 mod6(17)"
+        },
+        {
+          "stage": "interpretation",
+          "kind": "source-conditioned",
+          "statement": "少年取艮、离方取离；离体，结合喜色与爻辞取婚聘；互卦震坎含生体与克体，不能照抄为全部生体。"
+        }
+      ],
+      "reportedOutcome": "本节记载至期定亲",
+      "outcomeUse": "仅作书中叙事记录，不参与规则执行或作为现实准确率证据"
+    },
+    {
+      "id": "case-191",
+      "title": "牛哀鳴占",
+      "method": "object-direction",
+      "source": {
+        "file": "books/meihua_yishu.txt",
+        "startLine": 191,
+        "endLine": 195
+      },
+      "original": "=== 牛哀鳴占 ===\n癸卯日午時，有牛鳴于坎方，聲極悲，因占之。牛屬坤，為上卦，坎方為下卦。坎六坤八，加午時七，共二十一數，除三六一十八，三爻動得地水師之三爻。《易辭》曰：「師或輿屍，凶。」卦則師變升，互坤、震，乃坤為體，互變俱克之，並無生氣。\n\n斷曰：此牛二十一日內必遭屠殺。後二十日，人果買此牛，殺以犒眾，悉皆異之。",
+      "inputs": {
+        "upperNumber": 8,
+        "lowerNumber": 6,
+        "movingTotal": 21,
+        "provenance": "原书明确数值，非由结果倒推"
+      },
+      "calculated": {
+        "upper": "坤",
+        "lower": "坎",
+        "movingLine": 3,
+        "linesBottomUp": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "changedUpper": "坤",
+        "changedLower": "巽",
+        "mutualUpper": "坤",
+        "mutualLower": "震",
+        "body": "坤",
+        "use": "坎"
+      },
+      "reasoning": [
+        {
+          "stage": "calculation",
+          "kind": "deterministic",
+          "formula": "上卦 mod8(8)；下卦 mod8(6)；动爻 mod6(21)"
+        },
+        {
+          "stage": "interpretation",
+          "kind": "source-conditioned",
+          "statement": "牛坤、北坎；坤体，震木克体、巽变克体；下互坤为比和，原文互变俱克需标注。"
+        }
+      ],
+      "reportedOutcome": "预言二十一日内，叙事记载二十日",
+      "outcomeUse": "仅作书中叙事记录，不参与规则执行或作为现实准确率证据"
+    },
+    {
+      "id": "case-196",
+      "title": "雞悲鳴占",
+      "method": "object-direction",
+      "source": {
+        "file": "books/meihua_yishu.txt",
+        "startLine": 196,
+        "endLine": 200
+      },
+      "original": "=== 雞悲鳴占 ===\n甲申日卯時，有雞鳴于乾方，聲極悲愴，因占之。雞屬巽，為上卦，乾方為下卦，得風天小畜。以巽五乾一共六數，加卯時四數，總十數，除六得四，爻動變乾，是為小畜之六四。《易》曰：「有孚，血去惕出，無咎。」推之，割雞之義。卦則小畜之乾，互見離、兌。乾金為體，離火克之。卦中巽木離火，有烹飪之象。\n\n斷曰：此雞十日當烹。果十日客至，有烹雞之驗。",
+      "inputs": {
+        "upperNumber": 5,
+        "lowerNumber": 1,
+        "movingTotal": 10,
+        "provenance": "原书明确数值，非由结果倒推"
+      },
+      "calculated": {
+        "upper": "巽",
+        "lower": "乾",
+        "movingLine": 4,
+        "linesBottomUp": [
+          1,
+          1,
+          1,
+          0,
+          1,
+          1
+        ],
+        "changedUpper": "乾",
+        "changedLower": "乾",
+        "mutualUpper": "離",
+        "mutualLower": "兌",
+        "body": "乾",
+        "use": "巽"
+      },
+      "reasoning": [
+        {
+          "stage": "calculation",
+          "kind": "deterministic",
+          "formula": "上卦 mod8(5)；下卦 mod8(1)；动爻 mod6(10)"
+        },
+        {
+          "stage": "interpretation",
+          "kind": "source-conditioned",
+          "statement": "鸡巽、乾方；乾体，互离克金，巽木离火取烹饪象；爻辞需结合主题解释。"
+        }
+      ],
+      "reportedOutcome": "本节记载十日",
+      "outcomeUse": "仅作书中叙事记录，不参与规则执行或作为现实准确率证据"
+    },
+    {
+      "id": "case-201",
+      "title": "枯枝墜地占",
+      "method": "object-direction",
+      "source": {
+        "file": "books/meihua_yishu.txt",
+        "startLine": 201,
+        "endLine": 207
+      },
+      "original": "=== 枯枝墜地占 ===\n戊子日辰時，偶行至中途，有樹蔚然，無風，枯枝自墜地于兌方。占之，槁木為離，作上卦，兌方為下卦，得火澤睽。以兌二離三，加辰時五數，總十數，去六餘四，變山澤損，是睽之九四。《易》曰：「睽孤，遇元夫。」卦火澤睽變損，互見坎、離，兌金為體，離火克之，且睽損卦名，俱有傷殘之義。\n\n斷曰：此樹十日當伐。果十日，伐樹起公榭，而匠者適字「元夫」也。\n\n以上諸占例，並是先得卦，以卦起數，所謂後天之數也。",
+      "inputs": {
+        "upperNumber": 3,
+        "lowerNumber": 2,
+        "movingTotal": 10,
+        "provenance": "原书明确数值，非由结果倒推"
+      },
+      "calculated": {
+        "upper": "離",
+        "lower": "兌",
+        "movingLine": 4,
+        "linesBottomUp": [
+          1,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "changedUpper": "艮",
+        "changedLower": "兌",
+        "mutualUpper": "坎",
+        "mutualLower": "離",
+        "body": "兌",
+        "use": "離"
+      },
+      "reasoning": [
+        {
+          "stage": "calculation",
+          "kind": "deterministic",
+          "formula": "上卦 mod8(3)；下卦 mod8(2)；动爻 mod6(10)"
+        },
+        {
+          "stage": "interpretation",
+          "kind": "source-conditioned",
+          "statement": "槁木离、兑方；兑金体受离火克；睽损取伤残象；元夫是事后叙事对应，非确定算法。"
+        }
+      ],
+      "reportedOutcome": "本节记载十日伐树",
+      "outcomeUse": "仅作书中叙事记录，不参与规则执行或作为现实准确率证据"
+    }
+  ],
+  "additionalCaseGroups": [
+    {
+      "title": "加姓起卦",
+      "source": {
+        "startLine": 1103,
+        "endLine": 1105
+      },
+      "original": "=== 起卦加數例 ===\n寅年十二月初一日午時，有數家起造，俱在鄰市之間。有三家以此年月日時求占于先生，若同一卦，則吉凶莫辨矣。先生以各姓而加數，遂斷之而皆驗。蓋三家求占，有田姓者，王姓者，韓姓者。若寅年三數、十二與一，共十六，加王姓四畫，得二十數，去八一十六，得四，震為上卦；又加午時，七數，總二十七數，去三八二十四，得三，離為下卦。二十七中去四六二十四，余三為初爻，得豐變震，互見兌、巽。其田姓加以田字六畫，得水風井，變升，互見離、兌；其韓姓加入二十一畫之數，得益變中孚，互見艮、坤。乃以各家之姓起數，隨各家之卦斷之也。不特起屋之年月日時加姓也，凡冠婚及葬事皆加一姓可矣。若婚姻，則男女大事，必加二姓可也。極北之人無姓，亦必有名，不辨其字，則數聲音。又無名，則隨所寓也。\n",
+      "status": "部分缺输入或存在矛盾，保留原文待校勘，不补造数值"
+    },
+    {
+      "title": "田王韩三家屋宅",
+      "source": {
+        "startLine": 1106,
+        "endLine": 1112
+      },
+      "original": "=== 屋宅之占訣 ===\n寅年十二月初一日午時起屋者，其家田姓，其占水風井，變地風升，互見離、兌，巽木為體，用卦坎水生也，雖兌金克木，得有離火，火雖無氣，終是制金。然有兌金，酉年月日，亦當有損失之憂。亥子水年月日，當有進益，或得水邊之財，坎生體巽也。寅卯年當大快意，比和之氣也。但家必多口舌之聒，亦為兌也。木體近春。喜逢坎水，此居必能發旺。二十九年後，此屋當毀。蓋二十九年者，全卦之成數也。若非有兌在中，雖再見二十九年，屋當無恙也。\n\n同時王姓家起造，得雷火豐，變震，互見兌、巽。震木為體，離為用卦。兌為體之互，克體亦切。雖得離火制兌金，亦不純美。用火泄體之氣，破耗資財。每遇火年月日，主見此事，或因婦人而有損失。家中亦多女子是非。亥子寅卯之年月，卻主進益田財。蓋震木為體，雖不見坎，終是利水年。生體之氣，不見震巽，亦逢寅、卯，為體卦得局之時也。凡有震有巽，寅卯與木之氣運年月，此居必大得意。亦主得長子之力，變重震也。二十二年複為火所焚。\n\n韓姓之居，得益變中孚。巽體，互見艮、坤，變兌克本。此居必有官訟，見於酉年月日。申酉年連見病患，所喜用卦其震與巽體比和，當見寅卯年月後。申酉年後凶。三十一年之後，遇申酉年，此居當毀。若非有兌，或有一坎，再三十一年，此居亦無恙也。\n",
+      "status": "部分缺输入或存在矛盾，保留原文待校勘，不补造数值"
+    },
+    {
+      "title": "变卦式八则",
+      "source": {
+        "startLine": 1132,
+        "endLine": 1166
+      },
+      "original": "=== 變卦式八則 ===\n澤火革體金，互巽木變澤山鹹\n\n離卦初爻，陽動變陰，變艮卦兌金，為少女，離火克之。巽為股，乾金克之，曰：傷股。得艮土生，入兌金，斷曰：不至於死。\n\n體用於變爻，作動靜取之。動者為用，靜者為體。\n\n地雷複體土、用金，變地澤臨\n\n木是用爻，斷出軟物，文章之體也。\n\n天澤履體金、用金，互卦木火變乾卦\n\n此卦斷出是鐵器之物\n\n澤火革用金、體火，互卦金木變火雷噬嗑\n\n此卦乃用金體火，夏火得旺，能出土，必是土物也。\n\n雷澤歸妹用木、體金，互卦水火變火澤睽\n\n用爻屬木變火，體卦屬金。四爻變卦成艮，土能生金，斷出是鐵。\n\n澤天夬體金、用金，互卦金變兌卦\n\n此卦非金是石，斷是破磁碟也。\n\n澤火革互卦金木變艮卦\n\n本卦得澤火革，為少女，近物為口，遠取羊。內離為中女，近日，遠取雉。初爻變艮卦為土，土能生金，則扶起兌金之妹。次除去初爻，移上四爻，又成巽木，斷得傷股之災。得初爻變艮土生兌金，是故有救而不至於死也。\n\n「近取諸身」，乾頭、坤腹、震足、巽股、坎耳、離目、兌口、艮手，人身；「遠取諸物」，乾馬、坤牛、震龍、巽雞、坎豕、離雉、艮狗、兌羊，畜道。\n\n天水訟卦變兌，欲要求財。蓋卦是體生，而乃泄已之氣，其財空望。次得離卦屬火，能克金。其日午時，客來食去酒，返自消耗也。\n",
+      "status": "部分缺输入或存在矛盾，保留原文待校勘，不补造数值"
+    },
+    {
+      "title": "观物用易二例",
+      "source": {
+        "startLine": 1349,
+        "endLine": 1353
+      },
+      "original": "=== 觀物用易例 ===\n有人以籠盛物者，算得地天泰之初變升，互見震、兌，曰此必是草木類而生土中也。色青根黃，當連根之草木也。蓋爻辭曰：「拔茅茹，以其彙。」乃曰：此乃幹根之草木也，視之乃草木連根，新采於土中也。互震為清色，兌為黃根也。\n\n又有以鍾覆物者，令占之，得火風鼎之雷風恒。乃曰：此有聲價氣勢之物，雖圓而今毀缺矣。其色白而可用。蓋其辭曰：「鼎玉鉉，大吉。」互見乾、兌，雖圓面毀也。開視之，乃玉絛環，果破矣。\n",
+      "status": "部分缺输入或存在矛盾，保留原文待校勘，不补造数值"
+    }
+  ]
+}
