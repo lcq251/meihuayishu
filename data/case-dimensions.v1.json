@@ -1,0 +1,1219 @@
+{
+  "version": "case-dimension-v1",
+  "purpose": "建立卦、象、义、条件与差异的对应模型，不生成最终结果",
+  "dimensions": [
+    "structure",
+    "bodyUse",
+    "elements",
+    "guaImages",
+    "meaning",
+    "context",
+    "differences"
+  ],
+  "cases": [
+    {
+      "id": "case-154",
+      "title": "觀梅占",
+      "source": {
+        "file": "books/meihua_yishu.txt",
+        "startLine": 154,
+        "endLine": 158
+      },
+      "dimensions": {
+        "method": {
+          "value": "datetime",
+          "status": "source"
+        },
+        "structure": {
+          "upper": "兌",
+          "lower": "離",
+          "outer": "兌",
+          "inner": "離",
+          "movingLines": [
+            1
+          ],
+          "changed": "兌艮",
+          "mutual": "乾巽",
+          "status": "calculated"
+        },
+        "bodyUse": {
+          "body": "兌",
+          "use": "離",
+          "status": "rule-derived"
+        },
+        "elements": {
+          "body": "金",
+          "use": "火",
+          "relation": "待由主题规则解释",
+          "status": "calculated"
+        },
+        "guaImages": {
+          "upper": {
+            "element": "金",
+            "direction": "西",
+            "family": "少女",
+            "body": [
+              "口"
+            ],
+            "objects": [
+              "羊",
+              "金器",
+              "缺口物"
+            ]
+          },
+          "lower": {
+            "element": "火",
+            "direction": "南",
+            "family": "中女",
+            "body": [
+              "目"
+            ],
+            "objects": [
+              "火",
+              "文书",
+              "中虚物"
+            ]
+          },
+          "body": {
+            "element": "金",
+            "direction": "西",
+            "family": "少女",
+            "body": [
+              "口"
+            ],
+            "objects": [
+              "羊",
+              "金器",
+              "缺口物"
+            ]
+          },
+          "use": {
+            "element": "火",
+            "direction": "南",
+            "family": "中女",
+            "body": [
+              "目"
+            ],
+            "objects": [
+              "火",
+              "文书",
+              "中虚物"
+            ]
+          },
+          "status": "candidate",
+          "candidateLinks": [
+            "兑→少女",
+            "巽→股",
+            "艮→止/土"
+          ]
+        },
+        "meaning": {
+          "sourceStatements": [
+            "兌金为体、離火克体；巽为股且受金克；变艮土生体。女子、伤股与明晚是原书取象及语境判断，不由算术唯一推出。"
+          ],
+          "status": "source-conditioned"
+        },
+        "context": {
+          "available": [
+            "观梅、二雀争枝、坠地、申时"
+          ],
+          "missing": [
+            "用户意图、现场方位、动静状态"
+          ],
+          "status": "partial"
+        },
+        "differences": [],
+        "outcome": {
+          "status": "excluded",
+          "reason": "本阶段只建立维度对应，不生成最终结果"
+        }
+      }
+    },
+    {
+      "id": "case-159",
+      "title": "牡丹占",
+      "source": {
+        "file": "books/meihua_yishu.txt",
+        "startLine": 159,
+        "endLine": 163
+      },
+      "dimensions": {
+        "method": {
+          "value": "datetime",
+          "status": "source"
+        },
+        "structure": {
+          "upper": "乾",
+          "lower": "巽",
+          "outer": "乾",
+          "inner": "巽",
+          "movingLines": [
+            5
+          ],
+          "changed": "離巽",
+          "mutual": "乾乾",
+          "status": "calculated"
+        },
+        "bodyUse": {
+          "body": "巽",
+          "use": "乾",
+          "status": "rule-derived"
+        },
+        "elements": {
+          "body": "木",
+          "use": "金",
+          "relation": "待由主题规则解释",
+          "status": "calculated"
+        },
+        "guaImages": {
+          "upper": {
+            "element": "金",
+            "direction": "西北",
+            "family": "父/老人",
+            "body": [
+              "首",
+              "骨",
+              "肺"
+            ],
+            "objects": [
+              "马",
+              "金玉",
+              "圆物"
+            ]
+          },
+          "lower": {
+            "element": "木",
+            "direction": "东南",
+            "family": "长女",
+            "body": [
+              "股"
+            ],
+            "objects": [
+              "风",
+              "草木",
+              "鸡"
+            ]
+          },
+          "body": {
+            "element": "木",
+            "direction": "东南",
+            "family": "长女",
+            "body": [
+              "股"
+            ],
+            "objects": [
+              "风",
+              "草木",
+              "鸡"
+            ]
+          },
+          "use": {
+            "element": "金",
+            "direction": "西北",
+            "family": "父/老人",
+            "body": [
+              "首",
+              "骨",
+              "肺"
+            ],
+            "objects": [
+              "马",
+              "金玉",
+              "圆物"
+            ]
+          },
+          "status": "candidate",
+          "candidateLinks": [
+            "乾→马",
+            "离→明/午"
+          ]
+        },
+        "meaning": {
+          "sourceStatements": [
+            "巽木为体，乾金及重乾互卦克体；乾取马象，午时取离明象。"
+          ],
+          "status": "source-conditioned"
+        },
+        "context": {
+          "available": [
+            "牡丹盛开、午时后验"
+          ],
+          "missing": [
+            "用户意图、方位、动静状态"
+          ],
+          "status": "partial"
+        },
+        "differences": [],
+        "outcome": {
+          "status": "excluded",
+          "reason": "本阶段只建立维度对应，不生成最终结果"
+        }
+      }
+    },
+    {
+      "id": "case-164",
+      "title": "鄰夜扣門借物占",
+      "source": {
+        "file": "books/meihua_yishu.txt",
+        "startLine": 164,
+        "endLine": 168
+      },
+      "dimensions": {
+        "method": {
+          "value": "sound",
+          "status": "source"
+        },
+        "structure": {
+          "upper": "乾",
+          "lower": "巽",
+          "outer": "乾",
+          "inner": "巽",
+          "movingLines": [
+            4
+          ],
+          "changed": "巽巽",
+          "mutual": "乾乾",
+          "status": "calculated"
+        },
+        "bodyUse": {
+          "body": "巽",
+          "use": "乾",
+          "status": "rule-derived"
+        },
+        "elements": {
+          "body": "木",
+          "use": "金",
+          "relation": "待由主题规则解释",
+          "status": "calculated"
+        },
+        "guaImages": {
+          "upper": {
+            "element": "金",
+            "direction": "西北",
+            "family": "父/老人",
+            "body": [
+              "首",
+              "骨",
+              "肺"
+            ],
+            "objects": [
+              "马",
+              "金玉",
+              "圆物"
+            ]
+          },
+          "lower": {
+            "element": "木",
+            "direction": "东南",
+            "family": "长女",
+            "body": [
+              "股"
+            ],
+            "objects": [
+              "风",
+              "草木",
+              "鸡"
+            ]
+          },
+          "body": {
+            "element": "木",
+            "direction": "东南",
+            "family": "长女",
+            "body": [
+              "股"
+            ],
+            "objects": [
+              "风",
+              "草木",
+              "鸡"
+            ]
+          },
+          "use": {
+            "element": "金",
+            "direction": "西北",
+            "family": "父/老人",
+            "body": [
+              "首",
+              "骨",
+              "肺"
+            ],
+            "objects": [
+              "马",
+              "金玉",
+              "圆物"
+            ]
+          },
+          "status": "candidate",
+          "candidateLinks": [
+            "乾→短/金",
+            "巽→长/木"
+          ]
+        },
+        "meaning": {
+          "sourceStatements": [
+            "金短木长对应金木器具；斧与锄均为候选，再以夜间劈柴用途取斧。"
+          ],
+          "status": "source-conditioned"
+        },
+        "context": {
+          "available": [
+            "夜晚、酉时、敲击一声五声、借物"
+          ],
+          "missing": [
+            "用户意图"
+          ],
+          "status": "partial"
+        },
+        "differences": [],
+        "outcome": {
+          "status": "excluded",
+          "reason": "本阶段只建立维度对应，不生成最终结果"
+        }
+      }
+    },
+    {
+      "id": "case-169",
+      "title": "今日動靜如何",
+      "source": {
+        "file": "books/meihua_yishu.txt",
+        "startLine": 169,
+        "endLine": 173
+      },
+      "dimensions": {
+        "method": {
+          "value": "tone",
+          "status": "source"
+        },
+        "structure": {
+          "upper": "坤",
+          "lower": "巽",
+          "outer": "坤",
+          "inner": "巽",
+          "movingLines": [
+            1
+          ],
+          "changed": "坤乾",
+          "mutual": "震兌",
+          "status": "calculated"
+        },
+        "bodyUse": {
+          "body": "坤",
+          "use": "巽",
+          "status": "rule-derived"
+        },
+        "elements": {
+          "body": "土",
+          "use": "木",
+          "relation": "待由主题规则解释",
+          "status": "calculated"
+        },
+        "guaImages": {
+          "upper": {
+            "element": "土",
+            "direction": "西南",
+            "family": "母/老妇",
+            "body": [
+              "腹"
+            ],
+            "objects": [
+              "牛",
+              "田土",
+              "方物"
+            ]
+          },
+          "lower": {
+            "element": "木",
+            "direction": "东南",
+            "family": "长女",
+            "body": [
+              "股"
+            ],
+            "objects": [
+              "风",
+              "草木",
+              "鸡"
+            ]
+          },
+          "body": {
+            "element": "土",
+            "direction": "西南",
+            "family": "母/老妇",
+            "body": [
+              "腹"
+            ],
+            "objects": [
+              "牛",
+              "田土",
+              "方物"
+            ]
+          },
+          "use": {
+            "element": "木",
+            "direction": "东南",
+            "family": "长女",
+            "body": [
+              "股"
+            ],
+            "objects": [
+              "风",
+              "草木",
+              "鸡"
+            ]
+          },
+          "status": "candidate",
+          "candidateLinks": [
+            "兑→口",
+            "坤→腹/黍稷"
+          ]
+        },
+        "meaning": {
+          "sourceStatements": [
+            "坤腹、兑口取饮食象；缺坎取酒不多；坤独立取客少。平仄取值采用原书，不用现代普通话自动替代。"
+          ],
+          "status": "source-conditioned"
+        },
+        "context": {
+          "available": [
+            "六字问语、平仄声调"
+          ],
+          "missing": [
+            "现代语音标注、用户意图"
+          ],
+          "status": "partial"
+        },
+        "differences": [],
+        "outcome": {
+          "status": "excluded",
+          "reason": "本阶段只建立维度对应，不生成最终结果"
+        }
+      }
+    },
+    {
+      "id": "case-174",
+      "title": "西林寺牌額占",
+      "source": {
+        "file": "books/meihua_yishu.txt",
+        "startLine": 174,
+        "endLine": 182
+      },
+      "dimensions": {
+        "method": {
+          "value": "strokes",
+          "status": "source"
+        },
+        "structure": {
+          "upper": "艮",
+          "lower": "坤",
+          "outer": "艮",
+          "inner": "坤",
+          "movingLines": [
+            3
+          ],
+          "changed": "艮艮",
+          "mutual": "坤坤",
+          "status": "calculated"
+        },
+        "bodyUse": {
+          "body": "艮",
+          "use": "坤",
+          "status": "rule-derived"
+        },
+        "elements": {
+          "body": "土",
+          "use": "土",
+          "relation": "待由主题规则解释",
+          "status": "calculated"
+        },
+        "guaImages": {
+          "upper": {
+            "element": "土",
+            "direction": "东北",
+            "family": "少男",
+            "body": [
+              "手"
+            ],
+            "objects": [
+              "山",
+              "狗",
+              "门阙"
+            ]
+          },
+          "lower": {
+            "element": "土",
+            "direction": "西南",
+            "family": "母/老妇",
+            "body": [
+              "腹"
+            ],
+            "objects": [
+              "牛",
+              "田土",
+              "方物"
+            ]
+          },
+          "body": {
+            "element": "土",
+            "direction": "东北",
+            "family": "少男",
+            "body": [
+              "手"
+            ],
+            "objects": [
+              "山",
+              "狗",
+              "门阙"
+            ]
+          },
+          "use": {
+            "element": "土",
+            "direction": "西南",
+            "family": "母/老妇",
+            "body": [
+              "腹"
+            ],
+            "objects": [
+              "牛",
+              "田土",
+              "方物"
+            ]
+          },
+          "status": "candidate"
+        },
+        "meaning": {
+          "sourceStatements": [
+            "按题额实际笔画取数；一般体用比和却取群阴剥阳之象，属于明确的情境例外；改字是反事实分支。"
+          ],
+          "status": "source-conditioned"
+        },
+        "context": {
+          "available": [
+            "西林寺牌额、西字七画、林字八画、改字分支"
+          ],
+          "missing": [
+            "用户意图"
+          ],
+          "status": "partial"
+        },
+        "differences": [
+          "原文使用寺庙纯阳与重阴剥阳的情境解释，不能只用体用比和替代"
+        ],
+        "outcome": {
+          "status": "excluded",
+          "reason": "本阶段只建立维度对应，不生成最终结果"
+        }
+      }
+    },
+    {
+      "id": "case-183",
+      "title": "老人有憂色占",
+      "source": {
+        "file": "books/meihua_yishu.txt",
+        "startLine": 183,
+        "endLine": 187
+      },
+      "dimensions": {
+        "method": {
+          "value": "object-direction",
+          "status": "source"
+        },
+        "structure": {
+          "upper": "乾",
+          "lower": "巽",
+          "outer": "乾",
+          "inner": "巽",
+          "movingLines": [
+            4
+          ],
+          "changed": "巽巽",
+          "mutual": "乾乾",
+          "status": "calculated"
+        },
+        "bodyUse": {
+          "body": "巽",
+          "use": "乾",
+          "status": "rule-derived"
+        },
+        "elements": {
+          "body": "木",
+          "use": "金",
+          "relation": "待由主题规则解释",
+          "status": "calculated"
+        },
+        "guaImages": {
+          "upper": {
+            "element": "金",
+            "direction": "西北",
+            "family": "父/老人",
+            "body": [
+              "首",
+              "骨",
+              "肺"
+            ],
+            "objects": [
+              "马",
+              "金玉",
+              "圆物"
+            ]
+          },
+          "lower": {
+            "element": "木",
+            "direction": "东南",
+            "family": "长女",
+            "body": [
+              "股"
+            ],
+            "objects": [
+              "风",
+              "草木",
+              "鸡"
+            ]
+          },
+          "body": {
+            "element": "木",
+            "direction": "东南",
+            "family": "长女",
+            "body": [
+              "股"
+            ],
+            "objects": [
+              "风",
+              "草木",
+              "鸡"
+            ]
+          },
+          "use": {
+            "element": "金",
+            "direction": "西北",
+            "family": "父/老人",
+            "body": [
+              "首",
+              "骨",
+              "肺"
+            ],
+            "objects": [
+              "马",
+              "金玉",
+              "圆物"
+            ]
+          },
+          "status": "candidate"
+        },
+        "meaning": {
+          "sourceStatements": [
+            "老人取乾、巽方取巽；巽木体受乾金克，互重乾；行走取总数一半为五日。"
+          ],
+          "status": "source-conditioned"
+        },
+        "context": {
+          "available": [
+            "人物/动物/物象",
+            "方位",
+            "声音或状态",
+            "时间"
+          ],
+          "missing": [
+            "intent",
+            "season",
+            "direction",
+            "motion",
+            "externalSigns"
+          ],
+          "status": "partial"
+        },
+        "differences": [],
+        "outcome": {
+          "status": "excluded",
+          "reason": "本阶段只建立维度对应，不生成最终结果"
+        }
+      }
+    },
+    {
+      "id": "case-188",
+      "title": "少年有喜色占",
+      "source": {
+        "file": "books/meihua_yishu.txt",
+        "startLine": 188,
+        "endLine": 190
+      },
+      "dimensions": {
+        "method": {
+          "value": "object-direction",
+          "status": "source"
+        },
+        "structure": {
+          "upper": "艮",
+          "lower": "離",
+          "outer": "艮",
+          "inner": "離",
+          "movingLines": [
+            5
+          ],
+          "changed": "巽離",
+          "mutual": "震坎",
+          "status": "calculated"
+        },
+        "bodyUse": {
+          "body": "離",
+          "use": "艮",
+          "status": "rule-derived"
+        },
+        "elements": {
+          "body": "火",
+          "use": "土",
+          "relation": "待由主题规则解释",
+          "status": "calculated"
+        },
+        "guaImages": {
+          "upper": {
+            "element": "土",
+            "direction": "东北",
+            "family": "少男",
+            "body": [
+              "手"
+            ],
+            "objects": [
+              "山",
+              "狗",
+              "门阙"
+            ]
+          },
+          "lower": {
+            "element": "火",
+            "direction": "南",
+            "family": "中女",
+            "body": [
+              "目"
+            ],
+            "objects": [
+              "火",
+              "文书",
+              "中虚物"
+            ]
+          },
+          "body": {
+            "element": "火",
+            "direction": "南",
+            "family": "中女",
+            "body": [
+              "目"
+            ],
+            "objects": [
+              "火",
+              "文书",
+              "中虚物"
+            ]
+          },
+          "use": {
+            "element": "土",
+            "direction": "东北",
+            "family": "少男",
+            "body": [
+              "手"
+            ],
+            "objects": [
+              "山",
+              "狗",
+              "门阙"
+            ]
+          },
+          "status": "candidate"
+        },
+        "meaning": {
+          "sourceStatements": [
+            "少年取艮、离方取离；离体，结合喜色与爻辞取婚聘；互卦震坎含生体与克体，不能照抄为全部生体。"
+          ],
+          "status": "source-conditioned"
+        },
+        "context": {
+          "available": [
+            "人物/动物/物象",
+            "方位",
+            "声音或状态",
+            "时间"
+          ],
+          "missing": [
+            "intent",
+            "season",
+            "direction",
+            "motion",
+            "externalSigns"
+          ],
+          "status": "partial"
+        },
+        "differences": [
+          "原文互变生克表述与标准结构计算存在待校勘差异"
+        ],
+        "outcome": {
+          "status": "excluded",
+          "reason": "本阶段只建立维度对应，不生成最终结果"
+        }
+      }
+    },
+    {
+      "id": "case-191",
+      "title": "牛哀鳴占",
+      "source": {
+        "file": "books/meihua_yishu.txt",
+        "startLine": 191,
+        "endLine": 195
+      },
+      "dimensions": {
+        "method": {
+          "value": "object-direction",
+          "status": "source"
+        },
+        "structure": {
+          "upper": "坤",
+          "lower": "坎",
+          "outer": "坤",
+          "inner": "坎",
+          "movingLines": [
+            3
+          ],
+          "changed": "坤巽",
+          "mutual": "坤震",
+          "status": "calculated"
+        },
+        "bodyUse": {
+          "body": "坤",
+          "use": "坎",
+          "status": "rule-derived"
+        },
+        "elements": {
+          "body": "土",
+          "use": "水",
+          "relation": "待由主题规则解释",
+          "status": "calculated"
+        },
+        "guaImages": {
+          "upper": {
+            "element": "土",
+            "direction": "西南",
+            "family": "母/老妇",
+            "body": [
+              "腹"
+            ],
+            "objects": [
+              "牛",
+              "田土",
+              "方物"
+            ]
+          },
+          "lower": {
+            "element": "水",
+            "direction": "北",
+            "family": "中男",
+            "body": [
+              "耳"
+            ],
+            "objects": [
+              "水",
+              "豕",
+              "血"
+            ]
+          },
+          "body": {
+            "element": "土",
+            "direction": "西南",
+            "family": "母/老妇",
+            "body": [
+              "腹"
+            ],
+            "objects": [
+              "牛",
+              "田土",
+              "方物"
+            ]
+          },
+          "use": {
+            "element": "水",
+            "direction": "北",
+            "family": "中男",
+            "body": [
+              "耳"
+            ],
+            "objects": [
+              "水",
+              "豕",
+              "血"
+            ]
+          },
+          "status": "candidate"
+        },
+        "meaning": {
+          "sourceStatements": [
+            "牛坤、北坎；坤体，震木克体、巽变克体；下互坤为比和，原文互变俱克需标注。"
+          ],
+          "status": "source-conditioned"
+        },
+        "context": {
+          "available": [
+            "人物/动物/物象",
+            "方位",
+            "声音或状态",
+            "时间"
+          ],
+          "missing": [
+            "intent",
+            "season",
+            "direction",
+            "motion",
+            "externalSigns"
+          ],
+          "status": "partial"
+        },
+        "differences": [
+          "原文互变生克表述与标准结构计算存在待校勘差异"
+        ],
+        "outcome": {
+          "status": "excluded",
+          "reason": "本阶段只建立维度对应，不生成最终结果"
+        }
+      }
+    },
+    {
+      "id": "case-196",
+      "title": "雞悲鳴占",
+      "source": {
+        "file": "books/meihua_yishu.txt",
+        "startLine": 196,
+        "endLine": 200
+      },
+      "dimensions": {
+        "method": {
+          "value": "object-direction",
+          "status": "source"
+        },
+        "structure": {
+          "upper": "巽",
+          "lower": "乾",
+          "outer": "巽",
+          "inner": "乾",
+          "movingLines": [
+            4
+          ],
+          "changed": "乾乾",
+          "mutual": "離兌",
+          "status": "calculated"
+        },
+        "bodyUse": {
+          "body": "乾",
+          "use": "巽",
+          "status": "rule-derived"
+        },
+        "elements": {
+          "body": "金",
+          "use": "木",
+          "relation": "待由主题规则解释",
+          "status": "calculated"
+        },
+        "guaImages": {
+          "upper": {
+            "element": "木",
+            "direction": "东南",
+            "family": "长女",
+            "body": [
+              "股"
+            ],
+            "objects": [
+              "风",
+              "草木",
+              "鸡"
+            ]
+          },
+          "lower": {
+            "element": "金",
+            "direction": "西北",
+            "family": "父/老人",
+            "body": [
+              "首",
+              "骨",
+              "肺"
+            ],
+            "objects": [
+              "马",
+              "金玉",
+              "圆物"
+            ]
+          },
+          "body": {
+            "element": "金",
+            "direction": "西北",
+            "family": "父/老人",
+            "body": [
+              "首",
+              "骨",
+              "肺"
+            ],
+            "objects": [
+              "马",
+              "金玉",
+              "圆物"
+            ]
+          },
+          "use": {
+            "element": "木",
+            "direction": "东南",
+            "family": "长女",
+            "body": [
+              "股"
+            ],
+            "objects": [
+              "风",
+              "草木",
+              "鸡"
+            ]
+          },
+          "status": "candidate"
+        },
+        "meaning": {
+          "sourceStatements": [
+            "鸡巽、乾方；乾体，互离克金，巽木离火取烹饪象；爻辞需结合主题解释。"
+          ],
+          "status": "source-conditioned"
+        },
+        "context": {
+          "available": [
+            "人物/动物/物象",
+            "方位",
+            "声音或状态",
+            "时间"
+          ],
+          "missing": [
+            "intent",
+            "season",
+            "direction",
+            "motion",
+            "externalSigns"
+          ],
+          "status": "partial"
+        },
+        "differences": [],
+        "outcome": {
+          "status": "excluded",
+          "reason": "本阶段只建立维度对应，不生成最终结果"
+        }
+      }
+    },
+    {
+      "id": "case-201",
+      "title": "枯枝墜地占",
+      "source": {
+        "file": "books/meihua_yishu.txt",
+        "startLine": 201,
+        "endLine": 207
+      },
+      "dimensions": {
+        "method": {
+          "value": "object-direction",
+          "status": "source"
+        },
+        "structure": {
+          "upper": "離",
+          "lower": "兌",
+          "outer": "離",
+          "inner": "兌",
+          "movingLines": [
+            4
+          ],
+          "changed": "艮兌",
+          "mutual": "坎離",
+          "status": "calculated"
+        },
+        "bodyUse": {
+          "body": "兌",
+          "use": "離",
+          "status": "rule-derived"
+        },
+        "elements": {
+          "body": "金",
+          "use": "火",
+          "relation": "待由主题规则解释",
+          "status": "calculated"
+        },
+        "guaImages": {
+          "upper": {
+            "element": "火",
+            "direction": "南",
+            "family": "中女",
+            "body": [
+              "目"
+            ],
+            "objects": [
+              "火",
+              "文书",
+              "中虚物"
+            ]
+          },
+          "lower": {
+            "element": "金",
+            "direction": "西",
+            "family": "少女",
+            "body": [
+              "口"
+            ],
+            "objects": [
+              "羊",
+              "金器",
+              "缺口物"
+            ]
+          },
+          "body": {
+            "element": "金",
+            "direction": "西",
+            "family": "少女",
+            "body": [
+              "口"
+            ],
+            "objects": [
+              "羊",
+              "金器",
+              "缺口物"
+            ]
+          },
+          "use": {
+            "element": "火",
+            "direction": "南",
+            "family": "中女",
+            "body": [
+              "目"
+            ],
+            "objects": [
+              "火",
+              "文书",
+              "中虚物"
+            ]
+          },
+          "status": "candidate"
+        },
+        "meaning": {
+          "sourceStatements": [
+            "槁木离、兑方；兑金体受离火克；睽损取伤残象；元夫是事后叙事对应，非确定算法。"
+          ],
+          "status": "source-conditioned"
+        },
+        "context": {
+          "available": [
+            "人物/动物/物象",
+            "方位",
+            "声音或状态",
+            "时间"
+          ],
+          "missing": [
+            "intent",
+            "season",
+            "direction",
+            "motion",
+            "externalSigns"
+          ],
+          "status": "partial"
+        },
+        "differences": [],
+        "outcome": {
+          "status": "excluded",
+          "reason": "本阶段只建立维度对应，不生成最终结果"
+        }
+      }
+    }
+  ]
+}
