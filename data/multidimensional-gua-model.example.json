@@ -1,0 +1,28 @@
+{
+  "chartId": "case-154",
+  "original": {
+    "name": "革",
+    "symbol": "䷰",
+    "upper": "兑",
+    "lower": "离",
+    "outer": "兑",
+    "inner": "离",
+    "judgment": {"text": "革：己日乃孚。元亨利贞，悔亡。", "sourceType": "卦辞", "sourceRefs": ["六十四卦数据"], "status": "source-explicit"},
+    "image": {"text": "泽中有火，革。", "sourceType": "象辞", "sourceRefs": ["六十四卦数据"], "status": "source-explicit"}
+  },
+  "movingLines": [{
+    "position": 1,
+    "yinYang": "yin",
+    "changing": true,
+    "lineName": "初九",
+    "positionAttributes": ["开始", "近事"],
+    "relationAttributes": ["动者为用"],
+    "candidateMeanings": ["变化起点"]
+  }],
+  "body": {"name": "兑", "element": "金", "family": ["少女"], "bodyParts": ["口"]},
+  "use": {"name": "离", "element": "火", "family": ["中女"], "bodyParts": ["目"]},
+  "relations": [{"from": "离", "to": "兑", "relation": "克", "sourceRefs": ["books/meihua_yishu.txt:12-18"], "status": "derived"}],
+  "images": [{"term": "女子", "category": "人物", "source": "案例", "candidateMeaning": "兑为少女", "relatedGua": ["兑"], "confidence": "候选", "sourceRefs": ["books/meihua_yishu.txt:154-157"]}],
+  "context": {"intent": "未提供", "missing": ["占问意图", "方位", "动静", "外应"]},
+  "finalInterpretation": "pending-context"
+}

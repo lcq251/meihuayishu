@@ -1,0 +1,982 @@
+{
+  "version": "case-attribute-v1",
+  "purpose": "逐词逐名属性对应模型，不生成最终结果",
+  "cases": [
+    {
+      "id": "case-154",
+      "title": "觀梅占",
+      "source": {
+        "file": "books/meihua_yishu.txt",
+        "startLine": 154,
+        "endLine": 158
+      },
+      "resultReference": {
+        "original": "兌離",
+        "movingLine": 1,
+        "changed": "兌艮",
+        "mutual": "乾巽",
+        "body": "兌",
+        "use": "離"
+      },
+      "attributes": [
+        {
+          "term": "康節先生",
+          "category": "人物",
+          "role": "subject",
+          "candidateTrigrams": [
+            "乾"
+          ],
+          "candidateAttributes": [
+            "先生/长者"
+          ],
+          "sourceLine": 154,
+          "evidenceStatus": "source-explicit"
+        },
+        {
+          "term": "二雀",
+          "category": "动物",
+          "role": "object",
+          "candidateTrigrams": [
+            "巽"
+          ],
+          "candidateAttributes": [
+            "鸟"
+          ],
+          "sourceLine": 154,
+          "evidenceStatus": "source-explicit"
+        },
+        {
+          "term": "爭枝",
+          "category": "动作",
+          "role": "action",
+          "candidateTrigrams": [
+            "震",
+            "巽"
+          ],
+          "candidateAttributes": [
+            "争动",
+            "木"
+          ],
+          "sourceLine": 154,
+          "evidenceStatus": "source-explicit"
+        },
+        {
+          "term": "墜地",
+          "category": "状态",
+          "role": "action",
+          "candidateTrigrams": [
+            "坤",
+            "艮"
+          ],
+          "candidateAttributes": [
+            "下坠",
+            "落地"
+          ],
+          "sourceLine": 154,
+          "evidenceStatus": "source-explicit"
+        },
+        {
+          "term": "梅",
+          "category": "植物",
+          "role": "object",
+          "candidateTrigrams": [
+            "巽"
+          ],
+          "candidateAttributes": [
+            "花木"
+          ],
+          "sourceLine": 154,
+          "evidenceStatus": "source-explicit"
+        },
+        {
+          "term": "申時",
+          "category": "时间",
+          "role": "time",
+          "candidateTrigrams": [
+            "坤"
+          ],
+          "candidateAttributes": [
+            "申金时"
+          ],
+          "sourceLine": 154,
+          "evidenceStatus": "source-explicit"
+        }
+      ],
+      "finalResult": {
+        "status": "excluded",
+        "reason": "仅建立词项与维度属性，不输出最终解卦"
+      }
+    },
+    {
+      "id": "case-159",
+      "title": "牡丹占",
+      "source": {
+        "file": "books/meihua_yishu.txt",
+        "startLine": 159,
+        "endLine": 163
+      },
+      "resultReference": {
+        "original": "乾巽",
+        "movingLine": 5,
+        "changed": "離巽",
+        "mutual": "乾乾",
+        "body": "巽",
+        "use": "乾"
+      },
+      "attributes": [
+        {
+          "term": "先生",
+          "category": "人物",
+          "role": "subject",
+          "candidateTrigrams": [
+            "乾"
+          ],
+          "candidateAttributes": [
+            "长者"
+          ],
+          "sourceLine": 159,
+          "evidenceStatus": "source-explicit"
+        },
+        {
+          "term": "客",
+          "category": "人物",
+          "role": "subject",
+          "candidateTrigrams": [
+            "兑"
+          ],
+          "candidateAttributes": [
+            "来客"
+          ],
+          "sourceLine": 159,
+          "evidenceStatus": "source-explicit"
+        },
+        {
+          "term": "牡丹",
+          "category": "植物",
+          "role": "object",
+          "candidateTrigrams": [
+            "巽",
+            "离"
+          ],
+          "candidateAttributes": [
+            "花盛",
+            "文彩"
+          ],
+          "sourceLine": 159,
+          "evidenceStatus": "source-explicit"
+        },
+        {
+          "term": "花盛",
+          "category": "状态",
+          "role": "evidence",
+          "candidateTrigrams": [
+            "离"
+          ],
+          "candidateAttributes": [
+            "盛明"
+          ],
+          "sourceLine": 159,
+          "evidenceStatus": "source-explicit"
+        },
+        {
+          "term": "馬",
+          "category": "动物",
+          "role": "object",
+          "candidateTrigrams": [
+            "乾"
+          ],
+          "candidateAttributes": [
+            "马"
+          ],
+          "sourceLine": 159,
+          "evidenceStatus": "source-explicit"
+        },
+        {
+          "term": "踐毀",
+          "category": "动作",
+          "role": "action",
+          "candidateTrigrams": [
+            "兑"
+          ],
+          "candidateAttributes": [
+            "毁折"
+          ],
+          "sourceLine": 159,
+          "evidenceStatus": "source-explicit"
+        },
+        {
+          "term": "午時",
+          "category": "时间",
+          "role": "time",
+          "candidateTrigrams": [
+            "离"
+          ],
+          "candidateAttributes": [
+            "午火",
+            "明"
+          ],
+          "sourceLine": 159,
+          "evidenceStatus": "source-explicit"
+        }
+      ],
+      "finalResult": {
+        "status": "excluded",
+        "reason": "仅建立词项与维度属性，不输出最终解卦"
+      }
+    },
+    {
+      "id": "case-164",
+      "title": "鄰夜扣門借物占",
+      "source": {
+        "file": "books/meihua_yishu.txt",
+        "startLine": 164,
+        "endLine": 168
+      },
+      "resultReference": {
+        "original": "乾巽",
+        "movingLine": 4,
+        "changed": "巽巽",
+        "mutual": "乾乾",
+        "body": "巽",
+        "use": "乾"
+      },
+      "attributes": [
+        {
+          "term": "鄰夜",
+          "category": "时间",
+          "role": "environment",
+          "candidateTrigrams": [
+            "坎"
+          ],
+          "candidateAttributes": [
+            "夜"
+          ],
+          "sourceLine": 164,
+          "evidenceStatus": "source-explicit"
+        },
+        {
+          "term": "扣門",
+          "category": "动作",
+          "role": "action",
+          "candidateTrigrams": [
+            "震"
+          ],
+          "candidateAttributes": [
+            "敲击"
+          ],
+          "sourceLine": 164,
+          "evidenceStatus": "source-explicit"
+        },
+        {
+          "term": "一聲",
+          "category": "声音",
+          "role": "evidence",
+          "candidateTrigrams": [
+            "乾"
+          ],
+          "candidateAttributes": [
+            "一数"
+          ],
+          "sourceLine": 164,
+          "evidenceStatus": "source-explicit"
+        },
+        {
+          "term": "五聲",
+          "category": "声音",
+          "role": "evidence",
+          "candidateTrigrams": [
+            "巽"
+          ],
+          "candidateAttributes": [
+            "五数"
+          ],
+          "sourceLine": 164,
+          "evidenceStatus": "source-explicit"
+        },
+        {
+          "term": "借物",
+          "category": "动作",
+          "role": "action",
+          "candidateTrigrams": [
+            "兑"
+          ],
+          "candidateAttributes": [
+            "口言"
+          ],
+          "sourceLine": 164,
+          "evidenceStatus": "source-explicit"
+        },
+        {
+          "term": "斧",
+          "category": "物品",
+          "role": "object",
+          "candidateTrigrams": [
+            "乾",
+            "巽"
+          ],
+          "candidateAttributes": [
+            "金短木长"
+          ],
+          "sourceLine": 164,
+          "evidenceStatus": "source-explicit"
+        },
+        {
+          "term": "鋤",
+          "category": "物品",
+          "role": "object",
+          "candidateTrigrams": [
+            "坤",
+            "巽"
+          ],
+          "candidateAttributes": [
+            "候选器物"
+          ],
+          "sourceLine": 164,
+          "evidenceStatus": "source-explicit"
+        }
+      ],
+      "finalResult": {
+        "status": "excluded",
+        "reason": "仅建立词项与维度属性，不输出最终解卦"
+      }
+    },
+    {
+      "id": "case-169",
+      "title": "今日動靜如何",
+      "source": {
+        "file": "books/meihua_yishu.txt",
+        "startLine": 169,
+        "endLine": 173
+      },
+      "resultReference": {
+        "original": "坤巽",
+        "movingLine": 1,
+        "changed": "坤乾",
+        "mutual": "震兌",
+        "body": "坤",
+        "use": "巽"
+      },
+      "attributes": [
+        {
+          "term": "今日",
+          "category": "时间",
+          "role": "time",
+          "candidateTrigrams": [],
+          "candidateAttributes": [
+            "当日"
+          ],
+          "sourceLine": 169,
+          "evidenceStatus": "source-explicit"
+        },
+        {
+          "term": "動",
+          "category": "动作",
+          "role": "action",
+          "candidateTrigrams": [
+            "震"
+          ],
+          "candidateAttributes": [
+            "动"
+          ],
+          "sourceLine": 169,
+          "evidenceStatus": "source-explicit"
+        },
+        {
+          "term": "靜",
+          "category": "状态",
+          "role": "environment",
+          "candidateTrigrams": [
+            "艮"
+          ],
+          "candidateAttributes": [
+            "静"
+          ],
+          "sourceLine": 169,
+          "evidenceStatus": "source-explicit"
+        },
+        {
+          "term": "口腹",
+          "category": "身体",
+          "role": "evidence",
+          "candidateTrigrams": [
+            "兑",
+            "坤"
+          ],
+          "candidateAttributes": [
+            "饮食"
+          ],
+          "sourceLine": 169,
+          "evidenceStatus": "source-explicit"
+        },
+        {
+          "term": "黍雞",
+          "category": "物品",
+          "role": "object",
+          "candidateTrigrams": [
+            "坤"
+          ],
+          "candidateAttributes": [
+            "黍稷"
+          ],
+          "sourceLine": 169,
+          "evidenceStatus": "source-explicit"
+        },
+        {
+          "term": "酒",
+          "category": "物品",
+          "role": "object",
+          "candidateTrigrams": [
+            "坎"
+          ],
+          "candidateAttributes": [
+            "水"
+          ],
+          "sourceLine": 169,
+          "evidenceStatus": "source-explicit"
+        }
+      ],
+      "finalResult": {
+        "status": "excluded",
+        "reason": "仅建立词项与维度属性，不输出最终解卦"
+      }
+    },
+    {
+      "id": "case-174",
+      "title": "西林寺牌額占",
+      "source": {
+        "file": "books/meihua_yishu.txt",
+        "startLine": 174,
+        "endLine": 182
+      },
+      "resultReference": {
+        "original": "艮坤",
+        "movingLine": 3,
+        "changed": "艮艮",
+        "mutual": "坤坤",
+        "body": "艮",
+        "use": "坤"
+      },
+      "attributes": [
+        {
+          "term": "西林寺",
+          "category": "名称",
+          "role": "environment",
+          "candidateTrigrams": [
+            "兑",
+            "艮"
+          ],
+          "candidateAttributes": [
+            "寺额"
+          ],
+          "sourceLine": 174,
+          "evidenceStatus": "source-explicit"
+        },
+        {
+          "term": "西",
+          "category": "文字",
+          "role": "evidence",
+          "candidateTrigrams": [
+            "艮"
+          ],
+          "candidateAttributes": [
+            "七画"
+          ],
+          "sourceLine": 174,
+          "evidenceStatus": "source-explicit"
+        },
+        {
+          "term": "林",
+          "category": "文字",
+          "role": "evidence",
+          "candidateTrigrams": [
+            "坤"
+          ],
+          "candidateAttributes": [
+            "八画"
+          ],
+          "sourceLine": 174,
+          "evidenceStatus": "source-explicit"
+        },
+        {
+          "term": "兩勾",
+          "category": "文字",
+          "role": "evidence",
+          "candidateTrigrams": [
+            "兑"
+          ],
+          "candidateAttributes": [
+            "十画分支"
+          ],
+          "sourceLine": 174,
+          "evidenceStatus": "source-explicit"
+        },
+        {
+          "term": "陰人",
+          "category": "人物",
+          "role": "evidence",
+          "candidateTrigrams": [
+            "坤"
+          ],
+          "candidateAttributes": [
+            "阴象"
+          ],
+          "sourceLine": 174,
+          "evidenceStatus": "source-explicit"
+        }
+      ],
+      "finalResult": {
+        "status": "excluded",
+        "reason": "仅建立词项与维度属性，不输出最终解卦"
+      }
+    },
+    {
+      "id": "case-183",
+      "title": "老人有憂色占",
+      "source": {
+        "file": "books/meihua_yishu.txt",
+        "startLine": 183,
+        "endLine": 187
+      },
+      "resultReference": {
+        "original": "乾巽",
+        "movingLine": 4,
+        "changed": "巽巽",
+        "mutual": "乾乾",
+        "body": "巽",
+        "use": "乾"
+      },
+      "attributes": [
+        {
+          "term": "老人",
+          "category": "人物",
+          "role": "subject",
+          "candidateTrigrams": [
+            "乾"
+          ],
+          "candidateAttributes": [
+            "老人"
+          ],
+          "sourceLine": 183,
+          "evidenceStatus": "source-explicit"
+        },
+        {
+          "term": "巽方",
+          "category": "方位",
+          "role": "environment",
+          "candidateTrigrams": [
+            "巽"
+          ],
+          "candidateAttributes": [
+            "东南"
+          ],
+          "sourceLine": 183,
+          "evidenceStatus": "source-explicit"
+        },
+        {
+          "term": "憂色",
+          "category": "状态",
+          "role": "evidence",
+          "candidateTrigrams": [
+            "坎"
+          ],
+          "candidateAttributes": [
+            "忧"
+          ],
+          "sourceLine": 183,
+          "evidenceStatus": "source-explicit"
+        },
+        {
+          "term": "途行",
+          "category": "动作",
+          "role": "environment",
+          "candidateTrigrams": [
+            "震"
+          ],
+          "candidateAttributes": [
+            "行走"
+          ],
+          "sourceLine": 183,
+          "evidenceStatus": "source-explicit"
+        },
+        {
+          "term": "魚骨",
+          "category": "物品",
+          "role": "object",
+          "candidateTrigrams": [
+            "坎"
+          ],
+          "candidateAttributes": [
+            "鱼骨"
+          ],
+          "sourceLine": 183,
+          "evidenceStatus": "source-explicit"
+        }
+      ],
+      "finalResult": {
+        "status": "excluded",
+        "reason": "仅建立词项与维度属性，不输出最终解卦"
+      }
+    },
+    {
+      "id": "case-188",
+      "title": "少年有喜色占",
+      "source": {
+        "file": "books/meihua_yishu.txt",
+        "startLine": 188,
+        "endLine": 190
+      },
+      "resultReference": {
+        "original": "艮離",
+        "movingLine": 5,
+        "changed": "巽離",
+        "mutual": "震坎",
+        "body": "離",
+        "use": "艮"
+      },
+      "attributes": [
+        {
+          "term": "少年",
+          "category": "人物",
+          "role": "subject",
+          "candidateTrigrams": [
+            "艮"
+          ],
+          "candidateAttributes": [
+            "少男"
+          ],
+          "sourceLine": 188,
+          "evidenceStatus": "source-explicit"
+        },
+        {
+          "term": "離方",
+          "category": "方位",
+          "role": "environment",
+          "candidateTrigrams": [
+            "离"
+          ],
+          "candidateAttributes": [
+            "南"
+          ],
+          "sourceLine": 188,
+          "evidenceStatus": "source-explicit"
+        },
+        {
+          "term": "喜色",
+          "category": "状态",
+          "role": "evidence",
+          "candidateTrigrams": [
+            "兑",
+            "离"
+          ],
+          "candidateAttributes": [
+            "喜悦",
+            "明"
+          ],
+          "sourceLine": 188,
+          "evidenceStatus": "source-explicit"
+        },
+        {
+          "term": "聘幣",
+          "category": "物品",
+          "role": "object",
+          "candidateTrigrams": [
+            "乾",
+            "坤"
+          ],
+          "candidateAttributes": [
+            "婚聘"
+          ],
+          "sourceLine": 188,
+          "evidenceStatus": "source-explicit"
+        },
+        {
+          "term": "十七日",
+          "category": "时间",
+          "role": "time",
+          "candidateTrigrams": [],
+          "candidateAttributes": [
+            "应期记录"
+          ],
+          "sourceLine": 188,
+          "evidenceStatus": "source-explicit"
+        }
+      ],
+      "finalResult": {
+        "status": "excluded",
+        "reason": "仅建立词项与维度属性，不输出最终解卦"
+      }
+    },
+    {
+      "id": "case-191",
+      "title": "牛哀鳴占",
+      "source": {
+        "file": "books/meihua_yishu.txt",
+        "startLine": 191,
+        "endLine": 195
+      },
+      "resultReference": {
+        "original": "坤坎",
+        "movingLine": 3,
+        "changed": "坤巽",
+        "mutual": "坤震",
+        "body": "坤",
+        "use": "坎"
+      },
+      "attributes": [
+        {
+          "term": "牛",
+          "category": "动物",
+          "role": "subject",
+          "candidateTrigrams": [
+            "坤"
+          ],
+          "candidateAttributes": [
+            "牛"
+          ],
+          "sourceLine": 191,
+          "evidenceStatus": "source-explicit"
+        },
+        {
+          "term": "坎方",
+          "category": "方位",
+          "role": "environment",
+          "candidateTrigrams": [
+            "坎"
+          ],
+          "candidateAttributes": [
+            "北"
+          ],
+          "sourceLine": 191,
+          "evidenceStatus": "source-explicit"
+        },
+        {
+          "term": "哀鳴",
+          "category": "声音",
+          "role": "evidence",
+          "candidateTrigrams": [
+            "坎"
+          ],
+          "candidateAttributes": [
+            "悲声"
+          ],
+          "sourceLine": 191,
+          "evidenceStatus": "source-explicit"
+        },
+        {
+          "term": "屠殺",
+          "category": "动作",
+          "role": "action",
+          "candidateTrigrams": [
+            "兑",
+            "离"
+          ],
+          "candidateAttributes": [
+            "毁折",
+            "烹饪"
+          ],
+          "sourceLine": 191,
+          "evidenceStatus": "source-explicit"
+        }
+      ],
+      "finalResult": {
+        "status": "excluded",
+        "reason": "仅建立词项与维度属性，不输出最终解卦"
+      }
+    },
+    {
+      "id": "case-196",
+      "title": "雞悲鳴占",
+      "source": {
+        "file": "books/meihua_yishu.txt",
+        "startLine": 196,
+        "endLine": 200
+      },
+      "resultReference": {
+        "original": "巽乾",
+        "movingLine": 4,
+        "changed": "乾乾",
+        "mutual": "離兌",
+        "body": "乾",
+        "use": "巽"
+      },
+      "attributes": [
+        {
+          "term": "雞",
+          "category": "动物",
+          "role": "subject",
+          "candidateTrigrams": [
+            "巽"
+          ],
+          "candidateAttributes": [
+            "鸡"
+          ],
+          "sourceLine": 196,
+          "evidenceStatus": "source-explicit"
+        },
+        {
+          "term": "乾方",
+          "category": "方位",
+          "role": "environment",
+          "candidateTrigrams": [
+            "乾"
+          ],
+          "candidateAttributes": [
+            "西北"
+          ],
+          "sourceLine": 196,
+          "evidenceStatus": "source-explicit"
+        },
+        {
+          "term": "悲鳴",
+          "category": "声音",
+          "role": "evidence",
+          "candidateTrigrams": [
+            "坎"
+          ],
+          "candidateAttributes": [
+            "悲声"
+          ],
+          "sourceLine": 196,
+          "evidenceStatus": "source-explicit"
+        },
+        {
+          "term": "烹雞",
+          "category": "动作",
+          "role": "action",
+          "candidateTrigrams": [
+            "离",
+            "兑"
+          ],
+          "candidateAttributes": [
+            "烹饪",
+            "毁折"
+          ],
+          "sourceLine": 196,
+          "evidenceStatus": "source-explicit"
+        },
+        {
+          "term": "十日",
+          "category": "时间",
+          "role": "time",
+          "candidateTrigrams": [],
+          "candidateAttributes": [
+            "应期记录"
+          ],
+          "sourceLine": 196,
+          "evidenceStatus": "source-explicit"
+        }
+      ],
+      "finalResult": {
+        "status": "excluded",
+        "reason": "仅建立词项与维度属性，不输出最终解卦"
+      }
+    },
+    {
+      "id": "case-201",
+      "title": "枯枝墜地占",
+      "source": {
+        "file": "books/meihua_yishu.txt",
+        "startLine": 201,
+        "endLine": 207
+      },
+      "resultReference": {
+        "original": "離兌",
+        "movingLine": 4,
+        "changed": "艮兌",
+        "mutual": "坎離",
+        "body": "兌",
+        "use": "離"
+      },
+      "attributes": [
+        {
+          "term": "枯枝",
+          "category": "植物",
+          "role": "subject",
+          "candidateTrigrams": [
+            "离",
+            "震",
+            "巽"
+          ],
+          "candidateAttributes": [
+            "槁木",
+            "枯槁"
+          ],
+          "sourceLine": 201,
+          "evidenceStatus": "source-explicit"
+        },
+        {
+          "term": "無風",
+          "category": "状态",
+          "role": "environment",
+          "candidateTrigrams": [
+            "艮"
+          ],
+          "candidateAttributes": [
+            "静止"
+          ],
+          "sourceLine": 201,
+          "evidenceStatus": "source-explicit"
+        },
+        {
+          "term": "墜地",
+          "category": "动作",
+          "role": "action",
+          "candidateTrigrams": [
+            "坤",
+            "艮"
+          ],
+          "candidateAttributes": [
+            "落地"
+          ],
+          "sourceLine": 201,
+          "evidenceStatus": "source-explicit"
+        },
+        {
+          "term": "兌方",
+          "category": "方位",
+          "role": "environment",
+          "candidateTrigrams": [
+            "兑"
+          ],
+          "candidateAttributes": [
+            "西"
+          ],
+          "sourceLine": 201,
+          "evidenceStatus": "source-explicit"
+        },
+        {
+          "term": "伐樹",
+          "category": "动作",
+          "role": "action",
+          "candidateTrigrams": [
+            "乾",
+            "兑"
+          ],
+          "candidateAttributes": [
+            "斧伐",
+            "毁折"
+          ],
+          "sourceLine": 201,
+          "evidenceStatus": "source-explicit"
+        },
+        {
+          "term": "元夫",
+          "category": "人物",
+          "role": "evidence",
+          "candidateTrigrams": [
+            "乾"
+          ],
+          "candidateAttributes": [
+            "爻辞人名"
+          ],
+          "sourceLine": 201,
+          "evidenceStatus": "source-explicit"
+        }
+      ],
+      "finalResult": {
+        "status": "excluded",
+        "reason": "仅建立词项与维度属性，不输出最终解卦"
+      }
+    }
+  ]
+}
